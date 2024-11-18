@@ -1,0 +1,16 @@
+{
+  "name": "testapp",
+  "version": "1.0.0",
+  "description": "Test app for Musapp",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx testcafe chrome tests/"
+  },
+  "author": "Mateo Javier Zamora Lorente",
+  "license": "ISC",
+  "devDependencies": {
+    "testcafe": "^3.7.0"
+  },
+  "dependencies": {
+  }
+}
