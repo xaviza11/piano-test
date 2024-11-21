@@ -8,7 +8,7 @@ const mockData = {
 };
 
 const guestTokenMock = RequestMock()
-  .onRequestTo(`${API_HOST}guestToken/generate`)
+  .onRequestTo(`${API_HOST}guestToken/create`)
   .respond(mockData, 200, { 'access-control-allow-origin': '*' });
 
 export default guestTokenMock;

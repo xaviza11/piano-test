@@ -7,7 +7,7 @@ const mockData = {
 };
 
 const songRetrieveSongsMock = RequestMock()
-  .onRequestTo(`${API_HOST}song/retrieve_songs`)
+  .onRequestTo(`${API_HOST}song/retrieve_songs?author=as`)
   .respond(mockData, 404, { 'access-control-allow-origin': '*' });
 
 export default songRetrieveSongsMock;
